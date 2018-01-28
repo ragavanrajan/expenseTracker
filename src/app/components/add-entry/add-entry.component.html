@@ -1,0 +1,45 @@
+<form (submit)="addExpense()">
+<p-panel header="Add New Expense">
+  <div class="ui-g">
+    <div class="ui-g-12 ui-md-2">
+      <label for="text">No</label>
+      <input type="number" class="form-control" [(ngModel)] = "No" name="No">
+    </div>
+
+
+    <div class="ui-g-12 ui-md-2">
+      <label for="text">Date</label>
+      <input pInputText placeholder="dd-mmm-yy" type="text" class="form-control" [(ngModel)] = "Date" name="Date">
+    </div>
+    <div class="ui-g-12 ui-md-2">
+    <label for="text">Amount</label>
+    <input type="text" class="form-control" [(ngModel)] = "Amount" name="Amount">
+    </div>
+    <div class="ui-g-12 ui-md-2">
+      <label for="text">Category</label>
+      <input type="text" class="form-control" [(ngModel)] = "Category" name="Category">
+    </div>
+
+    <!--no 5-->
+    <div class="ui-g-12 ui-md-2">
+      <label for="text">Info</label>
+      <input type="text" class="form-control" [(ngModel)] = "Info" name="Info">
+    </div>
+
+    <div class="ui-g-12 ui-md-2">
+      <label for="text">Comments</label>
+      <input type="text" class="form-control" [(ngModel)] = "Comments" name="Comments">
+    </div>
+
+  </div>
+  <div class="ui-g" align="right">
+    <div class="ui-g-12">
+
+      <button pButton type="submit" class="btns" label="Submit" icon="fa-caret-right" iconPos="right"></button>
+    </div>
+  </div>
+
+</p-panel>
+
+</form>
+

@@ -1,0 +1,22 @@
+:host::ng-deep .ui-menubar.ui-widget {
+  background: #3F51B5;
+  height: 75px;
+}
+
+/*#D57E0F*/
+.ui-button {
+  background: #D57E0F;
+  font-size:20px;
+}
+
+:host::ng-deep.app-icon {
+  font-size:30px;
+}
+:host::ng-deep .ui-menuitem .ui-menuitem-link {
+  font-size: 25px;
+  color:white;
+
+}
+:host::ng-deep .ui-state-active {
+  background: none;
+}

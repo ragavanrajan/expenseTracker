@@ -1,0 +1,15 @@
+
+:host::ng-deep.ui-button {
+
+  font-size: 18px;
+  margin: 0px;
+  padding: 5px;
+}
+
+:host::ng-deep.ui-panel .ui-panel-titlebar {
+  background: #0692d6;
+  color: floralwhite;
+  font-weight: bold;
+}
+
+

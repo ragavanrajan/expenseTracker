@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+*,
+*:after,
+*:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: 'Lato';
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+html,
+body {
+  height: 100%;
+}
+section {
+  padding: 40px;
+}
+section h1,
+section h2,
+section h3 {
+  cursor: default;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+.laptop {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('http://isiasworld.pl/wp-content/uploads/2017/03/glenn-carstens-peters-190592-990x500.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  min-height: 600px;
+}
+.laptop h1 {
+  background: rgba(200, 200, 200, 0.75);
+  color: indianred;
+  font-size: 4em;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.laptop h2 {
+  background: rgba(200, 200, 200, 0.75);
+  color: black;
+  font-size: 2em;
+  padding: 10px;
+}
+.text {
+  background: #ecf0f1;
+  color: #894693;
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+.text h3 {
+  color: #3498db;
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+.coffee {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('https://c1.staticflickr.com/3/2306/1969185955_8add08fc7d_b.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 25%;
+  min-height: 600px;
+}
+.coffee ul {
+  background: rgba(255, 255, 255, 0.5);
+  color: brown;
+  cursor: default;
+  display: block;
+  font-size: 1.15em;
+  line-height: 2em;
+  margin: 0 0 0 auto;
+  padding: 20px;
+  width: 50%;
+}
+.coffee ul li {
+  margin-left: 20px;
+}
+.coffee ul li:first-child {
+  color: blueviolet;
+  font-size: 2em;
+  list-style: none;
+  margin: 0 0 20px;
+}
+/* variables */
+
+.ui-button-warning {
+  margin-top:140px;
+  font-size: 40px;
+  font-weight: 300!important;
+  white-space: normal;
+  background: #AA76B2 !important;
+  border: 1px solid #95589e!important
+}

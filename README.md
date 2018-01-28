@@ -2,9 +2,25 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
 
+## First Step 
+
+1. Create an account in Auth0. Setup the new client in the clients section. Once you have done this you will get auth0 config details 
+
+2. Once the Client setup is done. In the callback url textbox: Place the following URL as callback
+
+http://localhost:4200/createEntry 
+
+2. Go to Auth.service.ts file under app/services folder and replace the config section with your autho client id -- check the comments section in this file 
+
+
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+
 
 ## Code scaffolding
 

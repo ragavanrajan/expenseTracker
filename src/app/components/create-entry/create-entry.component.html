@@ -1,0 +1,39 @@
+
+<br><br>
+<div class="container">
+
+  <app-add-entry (expenseAdded)="addExpense($event)"></app-add-entry>
+  <hr>
+  <p-panel header="Your Expenses">
+    <br>
+    <p-table [value]="entries" class="timesheet-grid">
+      <ng-template pTemplate="header">
+        <tr>
+          <th>No</th>
+          <th>Date</th>
+          <th>Amount</th>
+          <th>Category</th>
+          <th>Info</th>
+          <th>Comments</th>
+          <th>Remove</th>
+
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-entry>
+        <tr>
+          <td>{{entry.No}}</td>
+          <td>{{entry.Date}}</td>
+          <td>{{entry.Amount}}</td>
+          <td>{{entry.Category}}</td>
+          <td>{{entry.Info}}</td>
+          <td>{{entry.Comments}}</td>
+          <td><button class="ui-g-nopad ui-g-12 ui-md-9" pButton label="Remove" icon="fa-minus-circle"
+                      (click)="removeExpense(entry)"></button></td>
+        </tr>
+      </ng-template>
+    </p-table>
+
+
+  </p-panel>
+
+</div>
