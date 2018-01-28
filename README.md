@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## First Step 
 
-1. Create an account in Auth0. Setup the new client in the clients section. Once you have done this you will get auth0 config details 
+1. Create an account in Auth0. Setup the new client in the clients section. Once you have done this you will get auth0 config details. If missed, Click Client > Quick start > select angular 2+ then you can see your config details 
 
 2. Once the Client setup is done. In the callback url textbox: Place the following URL as callback
 
