@@ -10,9 +10,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 http://localhost:4200/createEntry 
 
-2. Go to Auth.service.ts file under app/services folder and replace the config section with your autho client id -- check the comments section in this file 
+3. Go to Auth.service.ts file under app/services folder and replace the config section with your autho client id -- check the comments section in this file 
 
-
+4. Then do the `npm install` in terminal 
 
 
 
